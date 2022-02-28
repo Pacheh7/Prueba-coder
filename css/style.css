@@ -180,6 +180,11 @@ grid-area: descripcion4;
 
 }
 
+.logoFooter:hover {
+    cursor: pointer;
+
+}
+
 .clockMovimiento{
     grid-area: aside;
     background-image: url(../assets/img/clockPng.png);
