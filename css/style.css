@@ -197,6 +197,23 @@ grid-area: descripcion4;
    
 }
 
+.estructuraRadiant {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.estructuraDire {
+    margin: 20px 0px;
+    text-align: center;
+}
+.ancientDire {
+    margin-bottom: 10px;
+}
+
+.torre {
+    justify-content: center;
+}
+
 @keyframes movimiento 
     {
             0%
