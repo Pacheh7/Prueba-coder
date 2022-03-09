@@ -108,9 +108,13 @@ a {
     margin: 10px 0px;
 }
 
+img {
+    padding: 10px;
+}
 
 
-.poderes {
+
+/* .poderes {
     display: grid;
     gap:10px;
     max-height: auto;
@@ -178,14 +182,14 @@ a {
 grid-area: descripcion4;
 
 
-}
+} */
 
 .logoFooter:hover {
     cursor: pointer;
 
 }
 
-.clockMovimiento{
+/* .clockMovimiento{
     grid-area: aside;
     background-image: url(../assets/img/clockPng.png);
     background-repeat: no-repeat;
@@ -195,7 +199,7 @@ grid-area: descripcion4;
    animation-iteration-count: infinite;
    animation-direction: alternate;
    
-}
+} */
 
 .estructuraRadiant {
    margin-bottom: 20px;
