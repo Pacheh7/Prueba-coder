@@ -1,396 +1,131 @@
 * {
-    padding: 0;
-    margin: 0;
-
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-size: 100%;
-    background-color: #202020;
-    color:white;
-    font-size: 18px;
+  background-size: 100%;
+  background-color: #202020;
+  color: white;
+  font-size: 18px;
+  font-family: "Anton", sans-serif;
+}
+body footer {
+  border-style: double;
+  border-radius: 20px;
+  border-color: #0f5f5b;
+  max-width: 1300px;
+  margin: 2% auto;
+  padding: 0 20px;
+  justify-self: center;
 }
 
-
-h2 , h3, h4 {
-  
-    text-align: center;
-    font-family: 'Anton', sans-serif;
+header {
+  background-image: url(../assets/img/logoDotaAzul.jpg);
+  padding-bottom: 70px;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
 }
-
-header{
-background-image: url(../assets/img/logoDotaAzul.jpg);
-padding-bottom: 70px;
-background-position: center;
-text-align: center;
-background-repeat: no-repeat;
+header li {
+  display: inline;
+  padding: 20px;
 }
-
-
-h1 {
-
-    text-align: center;
-    padding: 10px ;
-    font-family: 'Anton', sans-serif;
-
+header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
-
+header h1 {
+  text-align: center;
+  padding: 10px;
+}
 
 main {
-     margin: 2% 15%;
-    padding: 0 20px;
-    background-size: 100vh;
-    border-style: double;
-    border-radius: 20px;
-    border-color: rgb(15, 95, 91);
-    max-width: 1300px;
-    justify-self: center;
+  margin: 2% auto;
+  padding: 0 20px;
+  background-size: 100vh;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #0f5f5b;
+  max-width: 1300px;
+  justify-self: center;
 }
-
 main p {
-    padding-bottom:20px;
-    padding-top: 20px;
-    text-align: justify;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: justify;
+}
+main h2, main h3, main h4 {
+  text-align: center;
 }
 
-li {
-    display: inline;
-    padding: 20px;
-    
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    
-}
 .logosFooter {
-    
-    margin-left: 40px;
-    
+  margin-left: 40px;
 }
 
 .logosSteamFooter {
-    padding: 10px;
-    border: 10px;
-  
+  padding: 10px;
+  border: 10px;
 }
 
 .logoFuerza {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display:block;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: whitesmoke;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: whitesmoke;
 }
 
-.clockIconoMini{
-    visibility: hidden;
+.clockIconoMini {
+  visibility: hidden;
 }
- 
+
 .tituloClock {
-    display: inline;
-} 
+  display: inline;
+}
 
-.tituloClock2{
-    display: inline;
-    visibility: hidden;
+.tituloClock2 {
+  display: inline;
+  visibility: hidden;
 }
 
 .clockSkills {
-    border: solid;
-    border-color: black;
-    display:block;
-    width: 100px;
-    margin: 10px 0px;
+  border: solid;
+  border-color: black;
+  display: block;
+  width: 100px;
+  margin: 10px 0px;
 }
 
 img {
-    padding: 10px;
+  padding: 10px;
 }
-
-
-
-/* .poderes {
-    display: grid;
-    gap:10px;
-    max-height: auto;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-        " descripcion1     descripcion1     skill1  aside"
-        " skill2        descripcion2       descripcion2 aside"
-        "descripcion3  descripcion3        skill3 aside"
-        "skill4     descripcion4        descripcion4 aside"
-        
-       
-        
-    ;
-    justify-content: center;
-    align-content: center;
-    
+img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.8s;
 }
-
-.primerDescripcion {
-   grid-area: descripcion1;
-
-}
-.primerSkill {
-    grid-area: skill1;
-    background-image: url(../assets/img/batteryAssault.JPG);
-    background-repeat: no-repeat;
-    margin-left: 50%;
-   
-    
-}
- 
-.segundoSkill {
-    grid-area: skill2;
-    background-image: url(../assets/img/powerCogs.JPG);
-    background-repeat: no-repeat;
-    margin-top: 5%;
-    margin-left:40%;
-}
-.segundaDescripcion {
-    grid-area: descripcion2;
-    
-}
-
-.tercerDescripcion {
-    grid-area: descripcion3;
-}
-
-.tercerSkill {
-    grid-area: skill3;
-    background-image: url(../assets/img/rocketFlare.JPG);
-    background-repeat: no-repeat;
-    margin-left: 50%;
-}
-
-.cuartoSkill{
-    grid-area: skill4;
-    background-image: url(../assets/img/hookShot.JPG);
-    background-repeat: no-repeat;
-    margin-left: 50%;
-
-}
-
-.cuartaDescripcion {
-grid-area: descripcion4;
-
-
-} */
 
 .logoFooter:hover {
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
-/* .clockMovimiento{
-    grid-area: aside;
-    background-image: url(../assets/img/clockPng.png);
-    background-repeat: no-repeat;
-     background-size: contain;
-   animation-duration: 3.5s;
-   animation-name: movimiento;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
-   
-} */
-
 .estructuraRadiant {
-   margin-bottom: 20px;
-   text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .estructuraDire {
-    margin: 20px 0px;
-    text-align: center;
+  margin: 20px 0px;
+  text-align: center;
 }
+
 .ancientDire {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .torre {
-    justify-content: center;
+  justify-content: center;
 }
-
-@keyframes movimiento 
-    {
-            0%
-            {
-               margin-top: 10px;
-              opacity: 100%;
-              transform: skewX(2deg);
-            }
-
-            10%
-            {
-                margin-top: 20px;
-                opacity: 70%;
-                transform: skewX(3deg);
-            }
-
-            20%
-            {
-                margin-top: 30px;
-                opacity: 40%;
-                transform: skewX(4deg);
-            }
-
-            30% 
-            {
-                margin-top: 40px;
-                opacity: 20%;
-                transform: skewX(5deg);
-            }
-
-            40%
-            {
-                margin-top: 50px;
-                opacity: 0%;
-                transform: skewX(6deg);
-            }
-
-            50%
-            {
-              margin-top: 40px;
-              opacity: 20%;
-             
-            }
-
-            60%
-            {
-                margin-top: 30px;
-                opacity: 40%;
-            
-            }
-
-            70%
-            {
-                margin-top: 20px;
-                opacity: 70%;
-             
-            }
-
-            80%
-            {
-                margin-top: 10px;
-                opacity: 100%;
-               
-            }
-
-
-            
-     } 
-
-
-
-.primerSkill:hover {
-        transform: scale(1.1);
-        transition-duration: 0.8s;
-   
-}
-
-.segundoSkill:hover {
-    transform: scale(1.1);
-    transition-duration: 0.8s;
-
-}
-
-.tercerSkill:hover {
-    transform: scale(1.1);
-    transition-duration: 0.8s;
-
-}
-
-.cuartoSkill:hover {
-    transform: scale(1.1);
-    transition-duration: 0.8s;
-
-}
-
-
-
-footer {
-    border-style: double;
-    border-radius: 20px;
-    border-color: rgb(15, 95, 91);
-    max-width: 1300px;
-    margin: 2% 15%;
-    padding: 0 20px;
-    justify-self: center;
-}
-
-
-@media (max-width: 870px) {
-     .poderes {
-         display: grid;
-         gap:10px;
-         max-height: auto;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: auto;
-            grid-template-areas: 
-            "skill1"
-            "descripcion1"
-            "skill2"
-            "descripcion2"
-            "skill3"
-            "descripcion3"
-            "skill4"
-            "descripcion4"    
-            ;
-            justify-content: center;
-             align-content: center;
-     }
-     
-
-
-    .primerDescripcion {
-      
-        grid-area: descripcion1;
-     
-     }
-
-    
-     .segundaDescripcion {
-         grid-area: descripcion2;
-         
-     }
-     
-     .tercerDescripcion {
-         grid-area: descripcion3;
-     }
-     
-
-     
-     .cuartaDescripcion {
-     grid-area: descripcion4;
-     
-     }
-
-
-@media (max-width:370px){
-    .clockIcono {
-        visibility: hidden;
-    }
-    .logoFuerza{
-        visibility: hidden;
-    }
-    .tituloClock{
-        visibility: hidden;
-    }
-    .tituloClock2 {
-        visibility: visible;
-    }
-    .clockIcono {
-    visibility: hidden;
-    }
-
-    .clockIconoMini {
-        visibility: initial;
-    }
-}}

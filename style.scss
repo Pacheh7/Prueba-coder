@@ -1,0 +1,160 @@
+*{
+    padding: 0;;
+    margin: 0;
+
+}
+
+body {
+    background-size: 100%;
+    background-color: #202020;
+    color:white;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    
+    footer {
+        border-style: double;
+        border-radius: 20px;
+        border-color: rgb(15, 95, 91);
+        max-width: 1300px;
+        margin: 2% auto;
+        padding: 0 20px;
+        justify-self: center;
+        }
+}
+
+
+
+header{
+    background-image: url(../assets/img/logoDotaAzul.jpg);
+    padding-bottom: 70px;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+    li {
+        display: inline;
+        padding: 20px;
+        
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    }
+
+    h1 {
+
+        text-align: center;
+        padding: 10px ;
+       
+    }
+}
+
+
+
+    main {
+       margin: 2% auto;
+       padding: 0 20px;
+       background-size: 100vh;
+       border-style: double;
+       border-radius: 20px;
+       border-color: rgb(15, 95, 91);
+       max-width: 1300px;
+       justify-self: center;
+
+       p {
+        padding-bottom:20px;
+        padding-top: 20px;
+        text-align: justify;
+       }
+
+       h2 , h3, h4 {
+  
+        text-align: center;
+        
+    }
+       
+   }
+
+
+
+
+.logosFooter {
+    
+    margin-left: 40px;
+    
+}
+
+.logosSteamFooter {
+    padding: 10px;
+    border: 10px;
+  
+}
+
+.logoFuerza {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:block;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.clockIconoMini{
+    visibility: hidden;
+}
+ 
+.tituloClock {
+    display: inline;
+} 
+
+.tituloClock2{
+    display: inline;
+    visibility: hidden;
+}
+
+.clockSkills {
+    border: solid;
+    border-color: black;
+    display:block;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+img {
+    padding: 10px;
+    &:hover{
+        transform: scale(1.1);
+    transition-duration: 0.8s;
+    }
+}
+
+.logoFooter:hover {
+    cursor: pointer;
+
+}
+
+.estructuraRadiant {
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ 
+ .estructuraDire {
+     margin: 20px 0px;
+     text-align: center;
+ }
+ .ancientDire {
+     margin-bottom: 10px;
+ }
+ 
+ .torre {
+     justify-content: center;
+ }
+
+
+
+
+
